@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Leave Application</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+        .form-box {
+            width: 400px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 8px;
+        }
+        input, textarea, button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 8px;
+        }
+        button {
+            background: green;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-box">
+    <h1>GLA University,Mathura</h1>
+    <fieldset>
+        <legnd>
+    <h2>Student Leave Application</h2>
+    <form method="POST">
+        <input type="text" name="name" placeholder="Student Name" required>
+        <input type="text" name="roll" placeholder="Roll Number" required>
+        <input type="text" name="course" placeholder="Course" required>
+        <input type="text" name="branch" placeholder="Branch" required>
+        <input type="date" name="from_date" required>
+        <input type="date" name="to_date" required>
+        <textarea name="reason" placeholder="Reason for Leave" required></textarea>
+        <button type="submit">Submit Application</button>
+    </form>
+        </legnd>
+    </fieldset>
+</div>
+
+</body>
+</html>
